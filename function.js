@@ -9,7 +9,7 @@ function calculate()
     document.getElementById("disscreen").value=ans;
 
 }
-function clear()
+function original()
 {
     document.getElementById("disscreen").value = "" ;
 }
