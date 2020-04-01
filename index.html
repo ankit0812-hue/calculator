@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Calculator</title>
+        <link rel="stylesheet" href="index1.css">
+        <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+           
+    </head>
+    <body> 
+        <div class="main">
+        <div class="main-div">
+            <p class="intro"><strong>Welcome To Ankit's <br>Personalised<br> Calculator</strong></p>
+            <i class="fas fa-calculator icon"></i>
+        </div>
+        <div class="calc">
+            <table class="table">
+                <tr class="screen">
+                    <td class="display" colspan="4"><input id="disscreen" type="text"> </td>
+                </tr>
+                <tr class="secondrow">
+                    <td class="number" id="one"><button onclick="display('1')">1</td>
+                    <td class="number"><button onclick="display('2')">2</button></td>
+                    <td class="number"><button onclick="display('3')">3</button></td>
+                    <td class="operator"><button onclick="display('*')">*</button></td>
+                </tr>
+                <tr class="thirdrow">
+                    <td class="number"><button onclick="display('4')">4</button></td>
+                    <td class="number"><button onclick="display('5')">5</button></td>
+                    <td class="number"><button onclick="display('6')">6</button></td>
+                    <td class="operator"><button onclick="display('+')">+</button></td>
+                </tr>
+                <tr class="fourthrow">
+                    <td class="number"><button onclick="display('7')">7</button></td>
+                    <td class="number"><button onclick="display('8')">8</button></td>
+                    <td class="number"><button onclick="display('9')">9</button></td>
+                    <td class="operator"><button onclick="display('-')"> -</button></td>
+                </tr>
+                <tr class="fifthrow">
+                    <td class="operator"><button onclick="clear()">C</button></td>
+                    <td class="number"><button onclick="display('0')">0</button></td>
+                    <td class="operator"><button onclick="display('/')">/</button></td>
+                    <td class="operator"><button onclick="calculate()">=</button></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <script src="function.js"></script>
+    </body>
+</html>

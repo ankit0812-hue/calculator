@@ -1,0 +1,52 @@
+body {
+    background-color: #ff7272;
+}
+.intro {
+    color: white;
+    font-size: 50px;
+    font-family: Alegreya SC;
+}
+.main-div {
+    padding-top: 150px;
+    padding-left: 30px;
+}
+.icon{
+    font-size: 100px;
+    color: white;
+}
+.main {
+    display: flex;
+
+}
+.calc {
+    padding-left: 500px;
+    padding-top: 150px;
+}
+.secondrow{
+    margin: 30px;
+}
+.screen {
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+.secondrow {
+    padding-top: 20px;
+}
+table,.display {
+    border: 1px solid white;
+    border-spacing: 20px;
+  }
+  button,input {
+      font-size: 30px;
+      background-color: #ff7272;
+      color: white;
+      font-weight: bold;
+      border-radius: 20px;
+      border:0px;
+      font-family: Alegreya SC;
+  }
+  #disscreen {
+      text-align: right;
+  }
+  
